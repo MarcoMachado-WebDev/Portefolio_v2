@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portefolio-v2';
+
+  vigation(about:HTMLElement){
+    about.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
 }

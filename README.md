@@ -1,6 +1,6 @@
 # Portefolio_v2
-PT
-Dia 1:
+##PT
+1. Dia:
     -Criar Projeto.
 
 
@@ -16,7 +16,7 @@ Dia 1:
 
 
 
-EN
-Day 1:
+##EN
+1. Day:
     -Creating project.
     
