@@ -7,8 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portefolio-v2';
+  path:string = "home";
 
   vigation(about:HTMLElement){
     about.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+
+  onViewPort(){
+    this.path="Home";
+    console.log(this.path);
   }
 }
