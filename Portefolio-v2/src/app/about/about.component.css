@@ -1,0 +1,26 @@
+.arrow__up{
+    font-size: 0.5em;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.arrow__up:hover p{
+    color: orange;
+    font-size: 1em;
+}
+.arrow__up:hover{
+    font-size: 1em;
+}
+
+h3{
+    font-size: 0.8em;
+}
+
+a{
+    font-size: 1.2em;
+}
+
+a:hover{
+    font-size: 1.3em;
+    color: orange;
+}
