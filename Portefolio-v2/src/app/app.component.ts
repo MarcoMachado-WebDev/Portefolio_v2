@@ -12,19 +12,8 @@ import { slideInAnimation } from './animation';
 })
 export class AppComponent {
   title = 'Portefolio-v2';
-  path:string = "home";
-
-  vigation(about:HTMLElement){
-    about.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-  }
-
-  onViewPort(){
-    this.path="Home";
-    console.log(this.path);
-  }
 
   prepareRoute(outlet: RouterOutlet) {
-    console.log(outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation);
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
   }
 }

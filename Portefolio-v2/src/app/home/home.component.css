@@ -4,9 +4,15 @@
     padding-top: 300px;
 }
 
+.hom img{
+    max-width: 10px;
+    max-height: 10px;
+}
+
 .home h1{
     font-size: 3em;
     margin-bottom: 20px;
+    
 }
 
 .arrow__down{
@@ -15,7 +21,7 @@
 }
 
 .arrow__down:hover p{
-    color: orange;
+    color: #F4A896;
     font-size: 1em;
 }
 .arrow__down:hover{

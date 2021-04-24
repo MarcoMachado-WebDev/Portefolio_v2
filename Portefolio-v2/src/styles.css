@@ -11,14 +11,14 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	background-color: rgb(15, 13, 13);
+	background-color: #358597;
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 17px;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: 'Lora', serif;
+	font-family: 'Roboto', sans-serif;
 	color: white;
 }
 

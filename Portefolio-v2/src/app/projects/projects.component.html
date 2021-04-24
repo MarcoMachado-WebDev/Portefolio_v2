@@ -1,11 +1,19 @@
-<div class='navigation'>
+<div class='navigation' #myIdentifier>
     <div routerLink="/skills">
-        <img src="../../assets/arrow_back_white_24dp.svg" alt="Back">
+        <img src="../../assets/arrow_back_white_48dp.svg" alt="Back">
     </div>
     <div routerLink="/about">
-        <img src="../../assets/arrow_forward_white_24dp.svg" alt="Back">
+        <img src="../../assets/arrow_forward_white_48dp.svg" alt="Back">
     </div>
 </div>
-<div>
-    <h1>PROJECTS!!</h1>
+<div class='carrosel'>
+    <button (click)="onPrev()"><img src="../../assets//chevron_left_white_48dp.svg" alt=""></button>
+    <div class='cards'>
+        <h1>{{projects[atual].title}}</h1>
+        <br>
+        <a href={{projects[atual].site}}><img src={{projects[atual].image}} alt="RecipeBook" ></a>
+        <a href={{projects[atual].git}} class="but">Git</a>
+        <a href={{projects[atual].site}} class="but">Visit</a>
+    </div>
+    <button (click)="onNext()"><img src="../../assets//chevron_right_white_48dp.svg" alt=""></button>
 </div>

@@ -5,11 +5,16 @@
 }
 
 .arrow__up:hover p{
-    color: orange;
+    color: #F4A896;
     font-size: 1em;
 }
 .arrow__up:hover{
     font-size: 1em;
+}
+.text{
+    text-align: left;
+    line-height: 1.6;
+    margin-left: 10px;
 }
 
 h3{
@@ -22,5 +27,5 @@ a{
 
 a:hover{
     font-size: 1.3em;
-    color: orange;
+    color: #F4A896;
 }
